@@ -15,6 +15,7 @@ const BlogPage = ({ data }) => {
 							</Link>
 						</h2>
 						<p>Posted: {node.frontmatter.date}</p>
+						{node.id}
 					</article>
 				))
 			}
